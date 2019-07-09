@@ -27,7 +27,7 @@ body {
 
 /* Navbar hover */
 .Navbar a:hover {
-	background-color: #F4F4F4;
+	background-color: #f4f4f4;
 	color: black;
 	font-weight: bold;
 }
