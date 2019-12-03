@@ -13,7 +13,7 @@
 <!-- Body -->
 <body class="Background"> 
 <!-- Fade in effect -->
-<script> <!-- This script and function controls our fade in effect -->
+<script> 
   document.body.className += ' fade-out';
     $(function() {
       $('body').removeClass('fade-out');
@@ -25,24 +25,24 @@
 <!-- Navbar -->
 	<div class="Navbar">
 		<a class="active" href="#Home">Home</a> 
-		<a href="#Slideshow">Slideshow</a> <!-- This is a new section -->
+		<a href="#Slideshow">Slideshow</a> 
 		<a href="#About">About</a>
 		<a href="#GitHub">GitHub</a>
-		<a onclick="openForm()">Contact</a> <!-- This makes it so that our openForm function runs when we click Contact on the nav bar -->
+		<a onclick="openForm()">Contact</a> 
 	</div>
 
-<!-- This allows us to close the form when we click outside the nav bar or contact form -->
+
 <div class="btn cancel" onclick="closeForm()">
 
 <!-- Home -->
 	<div id="Home">
-		<br> <!-- Breaks inserted to add space between navbar and first heading -->
+		<br> 
 		<br>
 		
 <!-- Video -->
-		<video autoplay muted loop id="Typing_Video"> <!-- Makes the video play automatically, on a loop and with no sound -->
+		<video autoplay muted loop id="Typing_Video">
 			<source src="Video/Typing.mp4" type="video/mp4">
-			Your browser does not support HTML5 video. <!-- Display message if video fails to run -->
+			Your browser does not support HTML5 video. 
 		</video>
 	</div>
 
@@ -127,7 +127,7 @@
     </div>
   </div>
 
-<!-- We included our JS function within this file to ensure it was given precedence, this function covers the slideshow -->
+
   <script>
     var slideIndex = 1;
 	  showSlides(slideIndex);
